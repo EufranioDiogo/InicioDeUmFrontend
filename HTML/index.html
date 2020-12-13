@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/universal.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Aprenda a programar</title>
+</head>
+<body>
+    <header id="cabecalho">
+		<p></p>
+        <nav id="navMenu">
+            <ul id="listaDesordenada">
+                <li id="li1" class="itemDeMenu" onmouseover="overButton('li1', '45, 45, 45')" onmouseout="outButton('li1')">Home</li>
+                <li id="li2" class="itemDeMenu" onmouseover="abrirSubMenu()" onmouseout="outButton('li2')"><a>Linguagens de Programação</a>
+                    <ul class="subMenuDaLista">
+                        <a href="linguagens_programacao_python.html"><li id="li21" class="itemDeSubMenu" onmouseover="overButton('li21', '57, 243, 0')" onmouseout="outButton('li21')">python</li></a>
+                        <a><li id="li22" class="itemDeSubMenu" onmouseover="overButton('li22', '243, 239, 0')" onmouseout="outButton('li22')">JavaScript</li></a>
+                        <a><li id="li23" class="itemDeSubMenu" onmouseover="overButton('li23', '230, 34, 0')"  onmouseout="outButton('li23')">Java</li></a>
+                        <a><li id="li24" class="itemDeSubMenu" onmouseover="overButton('li24', '33, 33, 33')" onmouseout="outButton('li24')">PHP</li></a>
+                    </ul>
+                </li>
+                <a><li id="li3"class="itemDeMenu" onmouseover="overButton('li3', '0, 18, 46')" onmouseout="outButton('li3')">Dicas de Programação</li></a>
+                <a><li id="li4" class="itemDeMenu" onmouseover="overButton('li4', '0, 174, 255')" onmouseout="outButton('li4')">Sobre-nós</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section id="contentorPrincipal">
+        <h1><a name="sara">Porque é importante aprender programação?</a></h1> <!--Teste para link interno ~_^ -->
+        <p>Steve Jobs, que foi um dos fundadores da Apple, dizia que todos deveriam aprender a programar um computador,
+            porque isso ensina a pensar. A verdade é que a tecnologia avançou muito nos últimos anos e os computadores 
+			estão em toda a parte. 
+            Seja na indústria, agricultura, saúde, entretenimento, em qualquer segmento que você queira trabalhar, a tecnologia estará 				lá. 
+            Seja para registrar um estoque de produtos, criar um um código de barras, fazer exames médicos ou gerar laudos e até vender 
+            ingressos para shows, em algum momento você irá depender da tecnologia. Além disso, se você tiver uma ideia de negócio e 				souber 
+            programar, poderá colocá-la em prática mais facilmente.</p>
+        <video id="video1" class="classVideo" onmouseover="overVideo('video1')" onmouseout="outVideo('video1')" src="../Video/PorqueAprenderProgramar.webm" title="Porque Aprender a Programar" itemref="" controls></video>
+        <h1>Quais são os primeiros passos para aprender programação?</h1>
+        <p>
+            Quem já estudou outros idiomas sabe o quanto é difícil se tornar fluente. Você precisa se dedicar, estudar, 
+            fazer exercícios e praticar. Com a programação funciona da mesma forma, ninguém decide aprender a programar 
+            e no dia seguinte já sabe tudo sobre códigos. Lembra como foi com o seu idioma nativo? Primeiro você 
+            aprendeu as letras, passou a reconhecê-las, depois começou a fazer combinações e quando viu já estava lendo 
+            e escrevendo.
+        </p>
+        <p>
+            Aprender programação também é assim. Primeiro você vai aprender uma linguagem de programação, aos poucos 
+            começará a escrever códigos e então poderá começar a criar coisas. E, o fato de saber programar também não 
+            significa que você terá que trabalhar com isso. Mas, certamente poderá aplicar as habilidades em várias 
+            outras situações do dia a dia. Inclusive, entender a lógica da programação é interessante para várias outras 
+            profissões.
+        </p>
+        <p>
+            Dito isso, vamos aos primeiros passos. Como já citamos no post <a href="http://www.techmundo.com.br" target="_blank">“Quais as vantagens de aprender a programar 
+            e por onde começar?“</a>, é preciso muita determinação e um pouco de conhecimento em matemática e inglês. Isso 
+            porque a maioria dos sites e termos usados na programação estão disponíveis em inglês, então saber o básico 
+            irá ajudá-lo. Além disso, você também irá usar muita multiplicação, subtração e adição. Veja abaixo cinco 
+            passos determinantes para quem planeja aprender programação
+        </p>
+        <h1>1. Entender a lógica de programação</h1>
+        <p>Aprender lógica de programação é o primeiro passo porque isso não muda, independente da linguagem que 
+        você escolher. Consiste em aprender técnicas para escrever códigos que possam ser interpretados por computadores.</p>
+        <h1>2. Escolher uma linguagem de programação</h1>
+        <p>Enquanto aprende lógica de programação você já pode começar a pesquisar mais sobre as linguagens: JavaScript, Python, Ruby,
+            Java, C++, entre outras. O site Techmundo publicou uma estimativa de quais serão as cinco <a href="http://www.techmundo.com.br" target="_blank">principais linguagens de 
+            programação de 2018.</a></p>
+        <h1>3. Desenvolver as novas habilidades</h1>
+        <p>Aprender programação requer prática, por isso busque meios de colocar o seu aprendizado em prática. Isso vale tanto para a 
+            leitura, quanto para a escrita de códigos. Conforme mais desenvolver as novas habilidades, mais experiência terá.</p>
+        <h1>4. Criar um projeto</h1>
+        <p>É importante idealizar um projeto para aplicar o que está aprendendo. Trace objetivos pequeno, que sejam possíveis de realizar 
+            com os conhecimentos de iniciante. Vá aumentando a complexidade conforme for evoluindo.</p>
+        <h1>5. Ser resiliente</h1>
+        <p>A resiliência significa a capacidade de superar adversidades e desafios. Como já falamos anteriormente, aprender programação 
+            requer muita determinação. Então, mesmo que não seja algo simples, não desista! Continue praticando e aperfeiçoando seus 
+			conhecimentos.</p>
+			<a href="#sara">VOLTAR</a>
+        <h1>Já decidiu?</h1>
+        <p>Está mesmo decidido a aprender programação? Conheça uma ferramenta para treinar agilidade na digitação de códigos.</p>
+    </section>
+    <aside id="panel1" class="contentorLateral">
+		<div id="contentorLateralCabecalho">
+        	<h1>Indicações</h1>
+		</div>
+		<div id="contentorLateralIndicacoes">
+		    <a class="externalLink" href="https://www.youtube.com/user/cursosemvideo" target="_blank">
+		        <div id="indicacao1" class="divIndicacao" onmouseover="indicacoesHover('indicacao1')" onmouseout="indicacoesOut('indicacao1')">
+		            <img src="../IMG/curso_em_video.jpg" alt="canal do youtube do curso em video">
+		            <span>
+		                <p>Canal do youtube virado para o ensino de programação, Gustavo Guanabara Dono do Canal</p>
+		            </span>
+		        </div>
+		    </a>
+		    <a class="externalLink" href="https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw" target="_blank">
+		        <div id="indicacao2" class="divIndicacao" onmouseover="indicacoesHover('indicacao2')" onmouseout="indicacoesOut('indicacao2')">
+		            <img src="../IMG/felipe_deschamps.jpg" alt="canal do youtube felipe deschamps">
+		            <span>
+		                <p>Canal do Felipe Deschamps(Michel Teló), é um canal que fala sobre diversos tópicos de tecnologia,
+						em especial programação!
+						</p>
+		            </span>
+		        </div>
+		    </a>
+		    <a class="externalLink" href="https://www.youtube.com/user/codigofontetv" target="_blank">
+		        <div id="indicacao3" class="divIndicacao" onmouseover="indicacoesHover('indicacao3')" onmouseout="indicacoesOut('indicacao3')">
+		            <img src="../IMG/codigo_fonte.jpg" alt="canal do youtube código fonte">
+		            <span>
+		                <p>Biel e Bia são um casal que decidiu ajudar a galera mais jovem que sente receio em começar sua carreira
+						em programação, eles procuram levar programação de uma forma simples e fácil para seu publico!
+						</p>
+		            </span>
+		        </div>
+		    </a>
+			<a class="externalLink" href="https://www.youtube.com/user/Diolinux" target="_blank">
+		        <div id="indicacao4" class="divIndicacao" onmouseover="indicacoesHover('indicacao4')" onmouseout="indicacoesOut('indicacao4')">
+		            <img src="../IMG/diolinux.jpg" alt="canal do youtube diolinux">
+		            <span>
+		                <p>DioLinux mais conhecido por Dio, é o canal de Jonathan, neste canal ele aborda de tudo que tem haver com o
+						Linux desde o terminal puro até a interface gráfica mais linda!
+						</p>
+		            </span>
+		        </div>
+		    </a>
+			<a class="externalLink" href="https://www.youtube.com/channel/UCHgK6t6Ma6m15UNO2z7YZyw" target="_blank">
+		        <div id="indicacao5" class="divIndicacao" onmouseover="indicacoesHover('indicacao5')" onmouseout="indicacoesOut('indicacao5')">
+		            <img src="../IMG/guru_da_ciencia.jpg" alt="canal do youtube guru da ciência">
+		            <span>
+		                <p>Estudante brasileiro na alemanha fazendo seu ensino superior, e em seu canal compartilha experiências, sua 
+						vida estudantil, e seus projectos acadêmicos!
+						</p>
+		            </span>
+		        </div>
+		    </a>
+		</div>
+    </aside>
+
+    <aside id="panel2" class="contentorLateral">
+		<div id="contentorLateralCabecalho">
+        	<h1>Figuras de Destaque</h1>
+		</div>
+		<div id="contentorLateralIndicacoes">
+		    <a class="externalLink" href="https://www.youtube.com/user/cursosemvideo" target="_blank">
+		        <div id="figura1" class="divIndicacao" onmouseover="indicacoesHover('figura1')" onmouseout="indicacoesOut('figura1')">
+		            <img src="../IMG/ada-lovelace.jpg" alt="canal do youtube do curso em video">
+		            <span>
+		                <p>Ada Agusta de Lovelace, foi a primeira pessoa a desenvolver um programa de computador e é a primeira programadora do mundo!</p>
+		            </span>
+		        </div>
+		    </a>
+		    <a class="externalLink" href="https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw" target="_blank">
+		        <div id="figura2" class="divIndicacao" onmouseover="indicacoesHover('figura2')" onmouseout="indicacoesOut('figura2')">
+		            <img src="../IMG/gustavo_guanabar.jpg" alt="Gustavo Guanabara(Curso em Vídeo)">
+		            <span>
+		                <p>Gustavo Guanabara é um professor de programação, que muda e já mudou a vida de muita gente com os seus cursos de extrema qualidade
+                        e uma didatica inigualavel!
+						</p>
+		            </span>
+		        </div>
+		    </a>
+		    <a class="externalLink" href="https://www.youtube.com/user/codigofontetv" target="_blank">
+		        <div id="figura3" class="divIndicacao" onmouseover="indicacoesHover('figura3')" onmouseout="indicacoesOut('figura3')">
+		            <img src="../IMG/bill_gates_90x90.png" alt="Foto de Bill Gates, Microsoft Creator">
+		            <span>
+		                <p>Bill Gates fundador da Microsoft &copy; desenvolvedor do sistema operacional Windows que para muitos é um dos melhores sistemas operacionais
+                        do mundo, e Bill Gates é considerado um grande programador por ter mudado completamente o mundo das TIs!
+						</p>
+		            </span>
+		        </div>
+		    </a>
+			<a class="externalLink" href="https://www.youtube.com/user/Diolinux" target="_blank">
+		        <div id="figura4" class="divIndicacao" onmouseover="indicacoesHover('figura4')" onmouseout="indicacoesOut('figura4')">
+		            <img src="../IMG/steve_jobs_90x90.jpeg" alt="Steve Jobs one of the founder of Apple">
+		            <span>
+		                <p>Steve Jobs, considerado uma das pessoas mais carismáticas e influenciadores no mundo das TIs, Steve foi um dos fundadores da gigante Apple
+                        com o seu amigo Steve Wosnic, juntos criaram a Apple Computers e com a criação da Apple Computer o seu primeiro PC o Apple 2 que foi um sucesso
+                        total em vendas com o seu ambiente gráfico e de fácil uso!
+						</p>
+						
+					</span>
+		        </div>
+		    </a>
+			<a class="externalLink" href="https://www.youtube.com/channel/UCHgK6t6Ma6m15UNO2z7YZyw" target="_blank">
+		        <div id="figura5" class="divIndicacao" onmouseover="indicacoesHover('figura5')" onmouseout="indicacoesOut('figura5')">
+		            <img src="../IMG/alan_turing_90x90.jpeg" alt="Alan Turing">
+		            <span>
+		                <p>Alan Turing, cientista da computação e matemático foi uma das peças fundamentais durante a IIª guerra mundial porque os alemães tinha uma
+                        maquina designada por enigma que criptografava todas a suas comunicações, e Alan Turing e sua equipa criaram um computador capaz de 
+                        descriptografar todos os códigos alemães!	
+						</p>
+		            </span>
+		        </div>
+		    </a>
+		</div>
+	</aside>
+	
+
+    <script src="../JS/index.js"></script>
+    <script src="../JS/scroll.js"></script>
+</body>
+</html>

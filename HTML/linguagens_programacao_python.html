@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/universal.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/linguagens_programacao_python.css">
+    <title>Aprenda a programar</title>
+</head>
+<body>
+    <header id="cabecalho">
+		<p></p>
+        <nav id="navMenu">
+            <ul id="listaDesordenada">
+                <a href="index.html"><li id="li1" class="itemDeMenu" onmouseover="overButton('li1', '45, 45, 45')" onmouseout="outButton('li1')">Home</li></a>
+                <li id="li2" class="itemDeMenu" onmouseover="abrirSubMenu()" onmouseout="outButton('li2')"><a>Linguagens de Programação</a>
+                    <ul class="subMenuDaLista">
+                        <a><li id="li21" class="itemDeSubMenu" onmouseover="overButton('li21', '57, 243, 0')" onmouseout="outButton('li21')">python</li></a>
+                        <a><li id="li22" class="itemDeSubMenu" onmouseover="overButton('li22', '243, 239, 0')" onmouseout="outButton('li22')">JavaScript</li></a>
+                        <a><li id="li23" class="itemDeSubMenu" onmouseover="overButton('li23', '230, 34, 0')"  onmouseout="outButton('li23')">Java</li></a>
+                        <a><li id="li24" class="itemDeSubMenu" onmouseover="overButton('li24', '33, 33, 33')" onmouseout="outButton('li24')">PHP</li></a>
+                    </ul>
+                </li>
+                <a><li id="li3"class="itemDeMenu" onmouseover="overButton('li3', '0, 18, 46')" onmouseout="outButton('li3')">Dicas de Programação</li></a>
+                <a><li id="li4" class="itemDeMenu" onmouseover="overButton('li4', '0, 174, 255')" onmouseout="outButton('li4')">Sobre-nós</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section id="contentorPrincipal">
+        <div class="cabecalho">
+            <p>Python</p>
+        </div>
+        <ul id="indiceConteudo">
+            <!---Rever está ganbiarra :-) -->
+            <a href="#divCriador"><li style="border-left: 1px solid #ccc;">Criador</li></a><!--
+         --><a href="#divObjectivos"><li>Objectivos</li></a><!--
+         --><a href="#divHistoria"><li>História</li></a><!--
+         --><a href="#divComunidades"><li>Comunidade</li></a><!--
+         --><a href="#divMateriasApoio"><li>Materias de Apoio</li></a>
+        </ul>
+        <div id="divCriador" class="divConteudo" onmouseover="mouseover('divCriador')" onmouseout="mouseout('divCriador')">
+            <h1>Criador</h1>
+            <img src="../IMG/Guido_250x250.jpg" alt="Guido Van Rossum">
+            <span>
+                <p>
+                    <strong>Nome:</strong> Guido Van Rossum.<br>
+                    <strong>Nascimento:</strong> 31 de Janeiro de 1956(63 anos).<br>
+                    <strong>Nacionalidade:</strong> Holandês.<br>
+                    <strong>Ocupação:</strong> Programador, escritor.<br>
+                </p>
+                <p>Obteve seu mestrado na Universidade de Amsterdã em 1982. Mais tarde,
+                    trabalhou em vários institutos de pesquisa, incluindo o Centrum Wiskunde & Informatica (CWI)
+                    , em Amsterdã; o National Institute of Standards and Technology (NIST), em Gaithersburg 
+                    (Maryland), e a Corporation for National Research Initiatives (CNRI), em Reston (Virgínia). 
+                    Trabalhou no desenvolvimento da linguagem de programação ABC, descendente da linguagem 
+                    Simula.</p>
+                <p>Em 2002, Van Rossum recebeu o Prêmio por Avanços em Software Livre de 2001 concedido pela 
+                FSF na conferência FOSDEM em Bruxelas, Bélgica.</p>
+                <p>De 2005 a 2012, Van Rossum foi empregado do Google, onde passava metade do tempo 
+                desenvolvendo a linguagem Python. Em janeiro de 2013, começou a trabalhar para Dropbox.</p>
+            </span>
+        </div>
+        <div id="divObjectivos" class="divConteudo" onmouseover="mouseover('divObjectivos')" onmouseout="mouseout('divObjectivos')">
+            <h1>Objectivos</h1>
+            <p>Julgo que a história do Python é extremamente importante para a comunidade, pois ela 
+            além de mostrar fatos importantes da linguagem, explica algumas de suas características 
+            e como seus desenvolvedores lutaram para manter esse projeto um dentro dos moldes do 
+            Software Livre e Open Source (antes mesmo de existir esse termo).</p>
+            <p>A Linguagem Python foi concebida no fim dos anos 80. A primeira ideia de implementar o 
+            Python surgiu mais especificamente em 1982 enquanto Guido Van Rossum trabalhava no CWI
+            (Centrum Wiskunde & Informatica, Centro de Matemática e Ciência da Computação) em Amsterdã, 
+            Holanda, no time de desenvolvimento da Linguagem ABC. Neste mesmo local também foi 
+            desenvolvida a linguagem Algol 68.</p>
+            <p>Posteriormente, em 1987, com o fim da linguagem ABC, Guido foi transferido para o grupo 
+            de trabalho Amoeba — um sistema operacional Microkernel liderado por Andrew Tanenbaum. 
+            Foi neste grupo que Guido percebeu a necessidade de uma linguagem para escrever programas 
+            intermediários, algo entre o C e o Shell Script.</p>
+        </div>
+        <div id="divHistoria" class="divConteudo" onmouseover="mouseover('divHistoria')" onmouseout="mouseout('divHistoria')">
+            <h1>História</h1>
+            <span>
+                <p>A história do Python é extremamente importante para a comunidade, pois ela 
+                além de mostrar fatos importantes da linguagem, explica algumas de suas características 
+                e como seus desenvolvedores lutaram para manter esse projeto um dentro dos moldes do 
+                Software Livre e Open Source (antes mesmo de existir esse termo).</p>
+                <p>A Linguagem Python foi concebida no fim dos anos 80. A primeira ideia de implementar o 
+                Python surgiu mais especificamente em 1982 enquanto Guido Van Rossum trabalhava no CWI
+                (Centrum Wiskunde & Informatica, Centro de Matemática e Ciência da Computação) em Amsterdã, 
+                Holanda, no time de desenvolvimento da Linguagem ABC. Neste mesmo local também foi 
+                desenvolvida a linguagem Algol 68.</p>
+                <p>Posteriormente, em 1987, com o fim da linguagem ABC, Guido foi transferido para o grupo 
+                de trabalho Amoeba — um sistema operacional Microkernel liderado por Andrew Tanenbaum. 
+                Foi neste grupo que Guido percebeu a necessidade de uma linguagem para escrever programas 
+                intermediários, algo entre o C e o Shell Script.</p>
+                <p>Sobre a origem do Python, Van Rossum escreveu em 1996:
+                    <blockquote>
+                        <cite>“Há mais de seis anos, em dezembro de 1989, eu estava procurando por um projeto 
+                        de programação como "hobby" que me mantivesse ocupado durante a semana próxima ao Natal. 
+                        Meu escritório... estaria fechado, mas eu tinha um computador em casa e não muito mais 
+                        do que isso em mãos. Eu decidi escrever um interpretador para a nova linguagem de 
+                        scripting sobre a qual eu vinha pensando ultimamente: uma descendente da ABC que agradaria
+                        a hackers de Unix/C. Escolhi Python como um título provisório para o projeto, sendo que 
+                        eu estava num humor um pouco irreverente (e sendo também um grande fã do Monty Python's 
+                        Flying Circus)”</cite>
+                    </blockquote>
+                </p>
+                <p>Em 1999, Van Rossum submeteu uma proposta de financiamento a DARPA chamada de Computer 
+                Programming for Everybody (Programação de computadores Para Todos), na qual ele definiu 
+                seus objetivos para a linguagem Python: Uma linguagem fácil e intuitiva enquanto que 
+                ainda sendo tão poderosa quanto as maiores competidoras.
+                Código aberto, para que qualquer um possa contribuir para o desenvolvimento
+                código que fosse tão inteligível quanto inglês
+                adequada para tarefas diárias, permitindo um tempo de desenvolvimento mais curto!</p>
+                <p>Muitas dessas ambições foram realizadas desde então. Python cresceu e se tornou uma linguagem 
+                de programação popular, particularmente no meio da Internet. Na comunidade do Python, 
+                Van Rossum é conhecido como um Benevolent Dictator for Life (Ditador Benevolente Vitalício), 
+                o que significa que ele continua a supervisionar o processo de desenvolvimento do Python,
+                tomando as últimas decisões onde necessário.</p>
+            </span>
+        </div>
+        <div id="divComunidades" class="divConteudo" onmouseover="mouseover('divComunidades')" onmouseout="mouseout('divComunidades')">
+            <h1>Comunidades</h1>
+            <ul id="listaDesordenadaComunidades">
+                <li id="comunidade1" class="comunidade">a
+                    <div id="principalComunidade1" class="principalComunidade">
+                        <img src="../IMG/CriancasProgramando.jpg" alt="Comunidade Python Brasil">
+                        <span><p><strong>Nome:</strong> Python Brasil<br>
+                            <strong>Idioma:</strong> Português(Brasileiro)<br>
+                            <strong>Foco:</strong> Ensino e expansão da comunidade Python no Brasil<br>
+                            <strong>Descrição:</strong> A comunidade Python Brasil é uma comunidade bastante activa e amistosa
+                            boa para se começar com inumeros exercícios e um ambiente propicio para estudos!
+                            <br>
+                            </p>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="divMateriaisApoio" class="divConteudo" onmouseover="mouseover('divMateriaisApoio')" onmouseout="mouseout('divMateriaisApoio')">
+            <h1>Materiais de Apoio</h1>
+            <p>Julgo que a história do Python é extremamente importante para a comunidade, pois ela 
+            além de mostrar fatos importantes da linguagem, explica algumas de suas características 
+            e como seus desenvolvedores lutaram para manter esse projeto um dentro dos moldes do 
+            Software Livre e Open Source (antes mesmo de existir esse termo).</p>
+            <p>A Linguagem Python foi concebida no fim dos anos 80. A primeira ideia de implementar o 
+            Python surgiu mais especificamente em 1982 enquanto Guido Van Rossum trabalhava no CWI
+            (Centrum Wiskunde & Informatica, Centro de Matemática e Ciência da Computação) em Amsterdã, 
+            Holanda, no time de desenvolvimento da Linguagem ABC. Neste mesmo local também foi 
+            desenvolvida a linguagem Algol 68.</p>
+            <p>Posteriormente, em 1987, com o fim da linguagem ABC, Guido foi transferido para o grupo 
+            de trabalho Amoeba — um sistema operacional Microkernel liderado por Andrew Tanenbaum. 
+            Foi neste grupo que Guido percebeu a necessidade de uma linguagem para escrever programas 
+            intermediários, algo entre o C e o Shell Script.</p>
+        </div>
+    </section>
+    <script src="../JS/scroll.js"></script>
+    <script src="../JS/index.js"></script>
+    <script src="../JS/linguagem_python.js"></script>
+</body>
+</html>
